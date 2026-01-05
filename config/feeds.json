@@ -1,0 +1,1247 @@
+{
+  "feeds": [
+    {
+      "url": "https://www.japantimes.co.jp/feed/topstories/",
+      "name": "Japan Times",
+      "country": "jp",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://japantoday.com/feed",
+      "name": "Japan Today",
+      "country": "jp",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://www.newsonjapan.com/rss/top.xml",
+      "name": "News On Japan",
+      "country": "jp",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.nytimes.com/svc/collections/v1/publish/http://www.nytimes.com/topic/destination/japan/rss.xml",
+      "name": "NYT Japan",
+      "country": "jp",
+      "language": "en",
+      "category": "general",
+      "paywall": "hard",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.thelocal.com/rss/it",
+      "name": "The Local",
+      "country": "it",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.milannews.it/rss/",
+      "name": "Milan News",
+      "country": "it",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://riotimesonline.com/feed/",
+      "name": "The Rio Times",
+      "country": "br",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "name": "NYT Top Stories",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "hard",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://feeds.foxnews.com/foxnews/latest",
+      "name": "FOX News",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+      "name": "Wall Street Journal",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "hard",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.latimes.com/world-nation/rss2.0.xml",
+      "name": "LA Times World",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "soft",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "name": "CNBC",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://rss.politico.com/playbook.xml",
+      "name": "Politico Playbook",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.smh.com.au/rss/feed.xml",
+      "name": "Sydney Morning Herald",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.abc.net.au/news/feed/1948/rss.xml",
+      "name": "ABC News Australia",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.theage.com.au/rss/feed.xml",
+      "name": "The Age",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.perthnow.com.au/news/feed",
+      "name": "PerthNow",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.canberratimes.com.au/rss.xml",
+      "name": "The Canberra Times - Local News",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.brisbanetimes.com.au/rss/feed.xml",
+      "name": "Business News Australia",
+      "country": "au",
+      "language": "en",
+      "category": "business",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/IndependentAustralia",
+      "name": "Independent Australia",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.feedburner.com/com/rCTl",
+      "name": "Crikey",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.michaelwest.com.au/feed/",
+      "name": "Michael West",
+      "country": "au",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://www.independent.co.uk/news/uk/rss",
+      "name": "The Independent",
+      "country": "uk",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://rss.unian.net/site/news_eng.rss",
+      "name": "News Agency UNIAN",
+      "country": "ua",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.thejournal.ie/feed/",
+      "name": "TheJournal.ie",
+      "country": "ie",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.breakingnews.ie/bntopstories",
+      "name": "Breaking News Ireland",
+      "country": "ie",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.the42.ie/feed/",
+      "name": "The42",
+      "country": "ie",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.feedburner.com/ietopstories",
+      "name": "IrishExaminer",
+      "country": "ie",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://feeds.feedburner.com/IrishCentral",
+      "name": "IrishCentral",
+      "country": "ie",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://globalnews.ca/feed/",
+      "name": "Global News Canada",
+      "country": "ca",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://business.financialpost.com/feed/",
+      "name": "Financial Post",
+      "country": "ca",
+      "language": "en",
+      "category": "business",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://nationalpost.com/feed/",
+      "name": "National Post",
+      "country": "ca",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://ottawacitizen.com/feed/",
+      "name": "Ottawa Citizen",
+      "country": "ca",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://theprovince.com/feed/",
+      "name": "The Province",
+      "country": "ca",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://torontosun.com/category/news/feed",
+      "name": "Toronto Sun",
+      "country": "ca",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://techcentral.co.za/feed",
+      "name": "TechCentral",
+      "country": "za",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://citizen.co.za/feed/",
+      "name": "The Citizen",
+      "country": "za",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.moneyweb.co.za/feed/",
+      "name": "Moneyweb",
+      "country": "za",
+      "language": "en",
+      "category": "business",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.thesouthafrican.com/feed/",
+      "name": "The South African",
+      "country": "za",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://api.axios.com/feed/",
+      "name": "Axios",
+      "country": "us",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://rss.dw.com/rdf/rss-en-all",
+      "name": "Deutsche Welle",
+      "country": "de",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.hongkongfp.com/feed/",
+      "name": "Hong Kong Free Press HKFP",
+      "country": "hk",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://feeds.hongkongnews.net/rss/b82693edf38ebff8",
+      "name": "Hong Kong News",
+      "country": "hk",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://www.france24.com/en/rss",
+      "name": "France 24",
+      "country": "fr",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://9to5mac.com/feed",
+      "name": "9to5Mac",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?user=Apple",
+      "name": "Apple",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "name": "Apple Newsroom",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://appleinsider.com/rss/news/",
+      "name": "AppleInsider News",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.cultofmac.com/feed",
+      "name": "Cult of Mac",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://daringfireball.net/feeds/main",
+      "name": "Daring Fireball",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.macstories.net/feed",
+      "name": "MacStories",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.macworld.com/index.rss",
+      "name": "Macworld",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/osxdaily",
+      "name": "OS X Daily",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/TheiPhoneBlog",
+      "name": "iMore",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "apple"
+      ]
+    },
+    {
+      "url": "https://www.newscientist.com/subject/space/feed/",
+      "name": "New Scientist - Space",
+      "country": "international",
+      "language": "en",
+      "category": "science",
+      "paywall": "none",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "url": "https://www.skyandtelescope.com/feed/",
+      "name": "Sky & Telescope",
+      "country": "international",
+      "language": "en",
+      "category": "science",
+      "paywall": "none",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "url": "https://www.theguardian.com/science/space/rss",
+      "name": "The Guardian Space",
+      "country": "international",
+      "language": "en",
+      "category": "science",
+      "paywall": "none",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "url": "https://www.space.com/feeds/all",
+      "name": "Space.com",
+      "country": "international",
+      "language": "en",
+      "category": "science",
+      "paywall": "none",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?user=spacexchannel",
+      "name": "SpaceX",
+      "country": "international",
+      "language": "en",
+      "category": "science",
+      "paywall": "none",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "url": "https://www.atlasobscura.com/feeds/latest",
+      "name": "Atlas Obscura",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/Travel.xml",
+      "name": "NYT Travel",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "hard",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "url": "https://www.nomadicmatt.com/travel-blog/feed/",
+      "name": "Nomadic Matt's Travel Site",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "url": "https://www.theguardian.com/uk/travel/rss",
+      "name": "The Guardian Travel",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "url": "http://consequenceofsound.net/feed",
+      "name": "Consequence",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "url": "https://www.musicbusinessworldwide.com/feed/",
+      "name": "Music Business Worldwide",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "url": "http://pitchfork.com/rss/news",
+      "name": "Pitchfork",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "url": "https://www.androidauthority.com/feed",
+      "name": "Android Authority",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "http://feeds.androidcentral.com/androidcentral",
+      "name": "Android Central",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/AndroidPolice",
+      "name": "Android Police",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "https://www.gsmarena.com/rss-news-reviews.php3",
+      "name": "GSMArena",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "android"
+      ]
+    },
+    {
+      "url": "https://feeds2.feedburner.com/slashfilm",
+      "name": "/Film",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "movies"
+      ]
+    },
+    {
+      "url": "https://www.comingsoon.net/feed",
+      "name": "ComingSoon",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "movies"
+      ]
+    },
+    {
+      "url": "https://deadline.com/feed/",
+      "name": "Deadline",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "movies"
+      ]
+    },
+    {
+      "url": "https://www.indiewire.com/feed",
+      "name": "IndieWire",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "movies"
+      ]
+    },
+    {
+      "url": "https://variety.com/feed/",
+      "name": "Variety",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "movies"
+      ]
+    },
+    {
+      "url": "https://tvline.com/feed/",
+      "name": "TVLine",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "television"
+      ]
+    },
+    {
+      "url": "https://www.autocar.co.uk/rss",
+      "name": "Autocar",
+      "country": "uk",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "cars"
+      ]
+    },
+    {
+      "url": "https://jalopnik.com/rss",
+      "name": "Jalopnik",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "cars"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?user=BonAppetitDotCom",
+      "name": "Bon App\u00e9tit",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/food52-TheAandMBlog",
+      "name": "Food52",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "url": "https://www.thekitchn.com/main.rss",
+      "name": "Kitchn",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/DiningandWine.xml",
+      "name": "NYT Food",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "hard",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/feeds/videos.xml?user=SeriousEats",
+      "name": "Serious Eats",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/oatmealfeed",
+      "name": "The Oatmeal",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "funny"
+      ]
+    },
+    {
+      "url": "https://www.theonion.com/rss",
+      "name": "The Onion",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "funny"
+      ]
+    },
+    {
+      "url": "https://xkcd.com/rss.xml",
+      "name": "xkcd",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "funny"
+      ]
+    },
+    {
+      "url": "https://developer.apple.com/news/rss/news.rss",
+      "name": "News - Apple Developer",
+      "country": "international",
+      "language": "en",
+      "category": "technology",
+      "paywall": "none",
+      "tags": [
+        "ios-development"
+      ]
+    },
+    {
+      "url": "https://www.apartmenttherapy.com/projects.rss",
+      "name": "Apartment Therapy| Saving the world, one room at a time",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "diy"
+      ]
+    },
+    {
+      "url": "https://hackaday.com/blog/feed/",
+      "name": "Blog \u2013 Hackaday",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "diy"
+      ]
+    },
+    {
+      "url": "https://www.howtogeek.com/feed/",
+      "name": "How-To Geek",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "diy"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/Archdaily",
+      "name": "ArchDaily",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "url": "https://www.architecturaldigest.com/feed/rss",
+      "name": "Architectural Digest",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "url": "https://www.dezeen.com/architecture/feed/",
+      "name": "Architecture \u2013 Dezeen",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "url": "https://archpaper.com/feed",
+      "name": "The Architect\u2019s Newspaper",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "url": "https://www.designboom.com/architecture/feed/",
+      "name": "architecture \u2013 designboom | architecture & design magazine",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "architecture"
+      ]
+    },
+    {
+      "url": "http://feeds.bbci.co.uk/sport/tennis/rss.xml",
+      "name": "BBC Tennis",
+      "country": "international",
+      "language": "en",
+      "category": "sports",
+      "paywall": "none",
+      "tags": [
+        "tennis"
+      ]
+    },
+    {
+      "url": "https://www.espn.com/espn/rss/tennis/news",
+      "name": "ESPN TENNIS",
+      "country": "international",
+      "language": "en",
+      "category": "sports",
+      "paywall": "none",
+      "tags": [
+        "tennis"
+      ]
+    },
+    {
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "name": "BBC World",
+      "country": "international",
+      "language": "en",
+      "category": "general",
+      "paywall": "none",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "name": "NYT World News",
+      "country": "international",
+      "language": "en",
+      "category": "general",
+      "paywall": "hard",
+      "tags": [
+        "news"
+      ]
+    },
+    {
+      "url": "http://feeds.bbci.co.uk/sport/rss.xml",
+      "name": "BBC Sport",
+      "country": "international",
+      "language": "en",
+      "category": "sports",
+      "paywall": "none",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "url": "https://www.espn.com/espn/rss/news",
+      "name": "ESPN TOP",
+      "country": "international",
+      "language": "en",
+      "category": "sports",
+      "paywall": "none",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "url": "https://www.escapistmagazine.com/v2/feed/",
+      "name": "Escapist Magazine",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://www.eurogamer.net/?format=rss",
+      "name": "Eurogamer",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://www.gamespot.com/feeds/mashup/",
+      "name": "GameSpot",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "http://feeds.ign.com/ign/all",
+      "name": "IGN All",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://kotaku.com/rss",
+      "name": "Kotaku",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/psblog",
+      "name": "PlayStation.Blog",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://www.polygon.com/rss/index.xml",
+      "name": "Polygon - All",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "http://feeds.feedburner.com/RockPaperShotgun",
+      "name": "Rock, Paper, Shotgun",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://store.steampowered.com/feeds/news.xml",
+      "name": "Steam RSS News",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "gaming"
+      ]
+    },
+    {
+      "url": "https://bookriot.com/feed/",
+      "name": "BOOK RIOT",
+      "country": "international",
+      "language": "en",
+      "category": "entertainment",
+      "paywall": "none",
+      "tags": [
+        "books"
+      ]
+    },
+    {
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml",
+      "name": "NYT Style",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "hard",
+      "tags": [
+        "fashion"
+      ]
+    },
+    {
+      "url": "https://www.refinery29.com/fashion/rss.xml",
+      "name": "Refinery29",
+      "country": "international",
+      "language": "en",
+      "category": "lifestyle",
+      "paywall": "none",
+      "tags": [
+        "fashion"
+      ]
+    }
+  ]
+}

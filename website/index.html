@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOSTR NEWS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NOSTR NEWS</h1>
+    <div class="filters">
+      <div class="filter-group">
+        <label>COUNTRY</label>
+        <select id="filter-country">
+          <option value="">ALL</option>
+          <option value="au">AU</option>
+          <option value="br">BR</option>
+          <option value="ca">CA</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="hk">HK</option>
+          <option value="ie">IE</option>
+          <option value="international">INTERNATIONAL</option>
+          <option value="it">IT</option>
+          <option value="jp">JP</option>
+          <option value="ua">UA</option>
+          <option value="uk">UK</option>
+          <option value="us">US</option>
+          <option value="za">ZA</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>CATEGORY</label>
+        <select id="filter-category">
+          <option value="">ALL</option>
+          <option value="business">BUSINESS</option>
+          <option value="entertainment">ENTERTAINMENT</option>
+          <option value="general">GENERAL</option>
+          <option value="lifestyle">LIFESTYLE</option>
+          <option value="science">SCIENCE</option>
+          <option value="sports">SPORTS</option>
+          <option value="technology">TECHNOLOGY</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>TAG</label>
+        <select id="filter-tag">
+          <option value="">ALL</option>
+          <option value="android">ANDROID</option>
+          <option value="apple">APPLE</option>
+          <option value="architecture">ARCHITECTURE</option>
+          <option value="books">BOOKS</option>
+          <option value="cars">CARS</option>
+          <option value="diy">DIY</option>
+          <option value="fashion">FASHION</option>
+          <option value="food">FOOD</option>
+          <option value="funny">FUNNY</option>
+          <option value="gaming">GAMING</option>
+          <option value="ios-development">IOS-DEVELOPMENT</option>
+          <option value="movies">MOVIES</option>
+          <option value="music">MUSIC</option>
+          <option value="news">NEWS</option>
+          <option value="space">SPACE</option>
+          <option value="sports">SPORTS</option>
+          <option value="television">TELEVISION</option>
+          <option value="tennis">TENNIS</option>
+          <option value="travel">TRAVEL</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>SOURCE</label>
+        <select id="filter-source">
+          <option value="">ALL</option>
+          <option value="/Film">/FILM</option>
+          <option value="9to5Mac">9TO5MAC</option>
+          <option value="ABC News Australia">ABC NEWS AUSTRALIA</option>
+          <option value="Android Authority">ANDROID AUTHORITY</option>
+          <option value="Android Central">ANDROID CENTRAL</option>
+          <option value="Android Police">ANDROID POLICE</option>
+          <option value="Apartment Therapy| Saving the world, one room at a time">APARTMENT THERAPY| SAVING THE WORLD, ONE ROOM AT A TIME</option>
+          <option value="Apple">APPLE</option>
+          <option value="Apple Newsroom">APPLE NEWSROOM</option>
+          <option value="AppleInsider News">APPLEINSIDER NEWS</option>
+          <option value="ArchDaily">ARCHDAILY</option>
+          <option value="Architectural Digest">ARCHITECTURAL DIGEST</option>
+          <option value="Architecture – Dezeen">ARCHITECTURE – DEZEEN</option>
+          <option value="Atlas Obscura">ATLAS OBSCURA</option>
+          <option value="Autocar">AUTOCAR</option>
+          <option value="Axios">AXIOS</option>
+          <option value="BBC Sport">BBC SPORT</option>
+          <option value="BBC Tennis">BBC TENNIS</option>
+          <option value="BBC World">BBC WORLD</option>
+          <option value="BOOK RIOT">BOOK RIOT</option>
+          <option value="Blog – Hackaday">BLOG – HACKADAY</option>
+          <option value="Bon Appétit">BON APPÉTIT</option>
+          <option value="Breaking News Ireland">BREAKING NEWS IRELAND</option>
+          <option value="Business News Australia">BUSINESS NEWS AUSTRALIA</option>
+          <option value="CNBC">CNBC</option>
+          <option value="ComingSoon">COMINGSOON</option>
+          <option value="Consequence">CONSEQUENCE</option>
+          <option value="Crikey">CRIKEY</option>
+          <option value="Cult of Mac">CULT OF MAC</option>
+          <option value="Daring Fireball">DARING FIREBALL</option>
+          <option value="Deadline">DEADLINE</option>
+          <option value="Deutsche Welle">DEUTSCHE WELLE</option>
+          <option value="ESPN TENNIS">ESPN TENNIS</option>
+          <option value="ESPN TOP">ESPN TOP</option>
+          <option value="Escapist Magazine">ESCAPIST MAGAZINE</option>
+          <option value="Eurogamer">EUROGAMER</option>
+          <option value="FOX News">FOX NEWS</option>
+          <option value="Financial Post">FINANCIAL POST</option>
+          <option value="Food52">FOOD52</option>
+          <option value="France 24">FRANCE 24</option>
+          <option value="GSMArena">GSMARENA</option>
+          <option value="GameSpot">GAMESPOT</option>
+          <option value="Global News Canada">GLOBAL NEWS CANADA</option>
+          <option value="Hong Kong Free Press HKFP">HONG KONG FREE PRESS HKFP</option>
+          <option value="Hong Kong News">HONG KONG NEWS</option>
+          <option value="How-To Geek">HOW-TO GEEK</option>
+          <option value="IGN All">IGN ALL</option>
+          <option value="Independent Australia">INDEPENDENT AUSTRALIA</option>
+          <option value="IndieWire">INDIEWIRE</option>
+          <option value="IrishCentral">IRISHCENTRAL</option>
+          <option value="IrishExaminer">IRISHEXAMINER</option>
+          <option value="Jalopnik">JALOPNIK</option>
+          <option value="Japan Times">JAPAN TIMES</option>
+          <option value="Japan Today">JAPAN TODAY</option>
+          <option value="Kitchn">KITCHN</option>
+          <option value="Kotaku">KOTAKU</option>
+          <option value="LA Times World">LA TIMES WORLD</option>
+          <option value="MacStories">MACSTORIES</option>
+          <option value="Macworld">MACWORLD</option>
+          <option value="Michael West">MICHAEL WEST</option>
+          <option value="Milan News">MILAN NEWS</option>
+          <option value="Moneyweb">MONEYWEB</option>
+          <option value="Music Business Worldwide">MUSIC BUSINESS WORLDWIDE</option>
+          <option value="NYT Food">NYT FOOD</option>
+          <option value="NYT Japan">NYT JAPAN</option>
+          <option value="NYT Style">NYT STYLE</option>
+          <option value="NYT Top Stories">NYT TOP STORIES</option>
+          <option value="NYT Travel">NYT TRAVEL</option>
+          <option value="NYT World News">NYT WORLD NEWS</option>
+          <option value="National Post">NATIONAL POST</option>
+          <option value="New Scientist - Space">NEW SCIENTIST - SPACE</option>
+          <option value="News - Apple Developer">NEWS - APPLE DEVELOPER</option>
+          <option value="News Agency UNIAN">NEWS AGENCY UNIAN</option>
+          <option value="News On Japan">NEWS ON JAPAN</option>
+          <option value="Nomadic Matt's Travel Site">NOMADIC MATT'S TRAVEL SITE</option>
+          <option value="OS X Daily">OS X DAILY</option>
+          <option value="Ottawa Citizen">OTTAWA CITIZEN</option>
+          <option value="PerthNow">PERTHNOW</option>
+          <option value="Pitchfork">PITCHFORK</option>
+          <option value="PlayStation.Blog">PLAYSTATION.BLOG</option>
+          <option value="Politico Playbook">POLITICO PLAYBOOK</option>
+          <option value="Polygon - All">POLYGON - ALL</option>
+          <option value="Refinery29">REFINERY29</option>
+          <option value="Rock, Paper, Shotgun">ROCK, PAPER, SHOTGUN</option>
+          <option value="Serious Eats">SERIOUS EATS</option>
+          <option value="Sky & Telescope">SKY & TELESCOPE</option>
+          <option value="Space.com">SPACE.COM</option>
+          <option value="SpaceX">SPACEX</option>
+          <option value="Steam RSS News">STEAM RSS NEWS</option>
+          <option value="Sydney Morning Herald">SYDNEY MORNING HERALD</option>
+          <option value="TVLine">TVLINE</option>
+          <option value="TechCentral">TECHCENTRAL</option>
+          <option value="The Age">THE AGE</option>
+          <option value="The Architect’s Newspaper">THE ARCHITECT’S NEWSPAPER</option>
+          <option value="The Canberra Times - Local News">THE CANBERRA TIMES - LOCAL NEWS</option>
+          <option value="The Citizen">THE CITIZEN</option>
+          <option value="The Guardian Space">THE GUARDIAN SPACE</option>
+          <option value="The Guardian Travel">THE GUARDIAN TRAVEL</option>
+          <option value="The Independent">THE INDEPENDENT</option>
+          <option value="The Local">THE LOCAL</option>
+          <option value="The Oatmeal">THE OATMEAL</option>
+          <option value="The Onion">THE ONION</option>
+          <option value="The Province">THE PROVINCE</option>
+          <option value="The Rio Times">THE RIO TIMES</option>
+          <option value="The South African">THE SOUTH AFRICAN</option>
+          <option value="The42">THE42</option>
+          <option value="TheJournal.ie">THEJOURNAL.IE</option>
+          <option value="Toronto Sun">TORONTO SUN</option>
+          <option value="Variety">VARIETY</option>
+          <option value="Wall Street Journal">WALL STREET JOURNAL</option>
+          <option value="architecture – designboom | architecture & design magazine">ARCHITECTURE – DESIGNBOOM | ARCHITECTURE & DESIGN MAGAZINE</option>
+          <option value="iMore">IMORE</option>
+          <option value="xkcd">XKCD</option>
+        </select>
+      </div>
+      <button id="clear-filters">CLEAR</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="articles"></div>
+    <div id="loading">LOADING...</div>
+    <div id="end-message" class="hidden">END OF FEED</div>
+  </main>
+
+  <div id="modal" class="hidden">
+    <div class="modal-content">
+      <button class="modal-close">X</button>
+      <article id="modal-article"></article>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/nostr-tools@2.10.0/lib/nostr.bundle.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
