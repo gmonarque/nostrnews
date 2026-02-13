@@ -14,6 +14,7 @@ import (
 	"nostrnews/rss"
 
 	"github.com/nbd-wtf/go-nostr"
+	"github.com/nbd-wtf/go-nostr/nip19"
 )
 
 type Publisher struct {
@@ -27,7 +28,12 @@ type Publisher struct {
 
 const rateLimitCooldown = 60 * time.Second
 
-func NewPublisher(privateKeyHex string, relays []string) (*Publisher, error) {
+func NewPublisher(privateKey string, relays []string) (*Publisher, error) {
+	privateKeyHex, err := normalizePrivateKey(privateKey)
+	if err != nil {
+		return nil, fmt.Errorf("invalid private key: %w", err)
+	}
+
 	pubKey, err := nostr.GetPublicKey(privateKeyHex)
 	if err != nil {
 		return nil, fmt.Errorf("invalid private key: %w", err)
@@ -40,6 +46,38 @@ func NewPublisher(privateKeyHex string, relays []string) (*Publisher, error) {
 		pool:          nostr.NewSimplePool(context.Background()),
 		relayCooldown: make(map[string]time.Time),
 	}, nil
+}
+
+func normalizePrivateKey(privateKey string) (string, error) {
+	key := strings.TrimSpace(privateKey)
+	if key == "" {
+		return "", fmt.Errorf("private key is empty")
+	}
+
+	if strings.HasPrefix(key, "nsec1") {
+		prefix, decodedValue, err := nip19.Decode(key)
+		if err != nil {
+			return "", fmt.Errorf("failed to decode nsec key: %w", err)
+		}
+		if prefix != "nsec" {
+			return "", fmt.Errorf("expected nsec key, got %s", prefix)
+		}
+
+		decodedKey, ok := decodedValue.(string)
+		if !ok {
+			return "", fmt.Errorf("unexpected decoded key type %T", decodedValue)
+		}
+		key = decodedKey
+	}
+
+	if len(key) != 64 {
+		return "", fmt.Errorf("expected 64 hex chars, got %d", len(key))
+	}
+	if _, err := hex.DecodeString(key); err != nil {
+		return "", err
+	}
+
+	return key, nil
 }
 
 func (p *Publisher) Publish(ctx context.Context, article rss.Article) error {
