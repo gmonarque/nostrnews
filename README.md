@@ -21,7 +21,7 @@ Continuously fetches articles from configured RSS feeds and publishes them as lo
 
 **Requirements:**
 - Go 1.23+
-- `NOSTR_PRIVATE_KEY` environment variable (hex-encoded nsec)
+- `NOSTR_PRIVATE_KEY` environment variable (hex-encoded nsec, or NIP-19 nsec)
 
 **Usage:**
 ```bash
